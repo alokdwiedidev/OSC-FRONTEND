@@ -1,0 +1,39 @@
+.status-root {
+    padding: 5px;
+    min-width: 85px;
+    max-width: 120px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 6px #0000001A;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-root h4 {
+    font-size: 14px;
+    color: red;
+    margin: 0;
+}
+
+.status-root h4::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+    margin-right: 8px;
+}
+
+.connected {
+    background-color: #fff !important;
+}
+
+.connected h4 {
+    color: #06DB22;
+}
+
+.connected h4::before {
+    background-color: #06DB22 ;
+}

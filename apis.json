@@ -1,0 +1,163 @@
+// GET /user/dashboard 
+
+"Request Body": {
+    "userId": "user128",
+    "sessionId": "181"
+}
+
+"Response Body":
+{
+    "code": 200,
+    "dataObject": {
+        "RecentlyViewedProducts": [],
+        "SimilarProducts": [],
+        "FeaturedProducts": [
+            {
+                "productId": "A01",
+                "categoryId": "A",
+                "prodName": "Samsung Galaxy M135G",
+                "prodMarketPrice": "11999"
+            }
+        ],
+        "Categories": [
+            {
+                "categoryId": "A",
+                "categoryName": "Mobiles"
+            }
+        ]
+    }
+}
+ 
+"POST /product/details"
+"Request Body":
+{
+    "userId": "user008",
+    "catId": "A",
+    "prodId": 2
+}
+"Response Body":
+{
+    "code": 200,
+    "dataObject": {
+    "userId": "user008",
+    "catId": "A",
+    "prodId": 2,
+    "prodName": "Samsung Galaxy M53 5G",
+    "prodDesc": "Segment Best 108MP Quad Camera Setup, with exciting features like Single Take, Object Eraser, and Photo Remaster.6.7-inch Super AMOLED Plus Display, FHD+ resolution, 1080x2400 pixels with 120Hz Refresh Rate",
+    "prodPrice": "24999",
+    "similarProducts": [
+        {
+            "productId": 1,
+            "prodName": "Samsung Galaxy M13 5G",
+            "prodMarketPrice": "11999"
+        }
+    ]
+}
+}
+ 
+"Request Body":
+{
+    "userId": "user008",
+    "catId": "C",
+    "filter": "LH"
+}
+"Response Body":
+{
+    "code": 200,
+    "dataObject": {
+    "catId": "C",
+    "products": [
+        {
+            "productId": "C02",
+            "prodName": "Samsung 24 inch",
+            "prodMarketPrice": "10099"
+        }
+      ]
+    }
+}
+ 
+"Request Body" :
+{
+    "userId": "user008"
+}
+"Response Body":
+{
+    "code": 200,
+    "dataObject": {
+    "cartProducts": [
+        {
+            "prodId": "A02",
+            "prodName": "Samsung Galaxy M535G",
+            "price": 24999,
+            "cartQty": 1
+        }
+    ],
+    "ProductsCartCount": 1,
+    "totalPrice": 24999
+}
+}
+
+"Request Body": {
+    "count": 9,
+    "userId": "user008",
+    "prodId": "A02"
+}
+
+"Response Body": {
+    "code": 200,
+    "dataObject": null
+}
+
+"Request Body": {
+    "count": 9,
+    "userId": "user008",
+    "prodId": "A02"
+}
+
+"Response Body": {
+    "code": 200,
+    "dataObject": null
+}
+
+"Request Body": {
+    "userId": "user008",
+    "prodId": "A02"
+}
+
+"Response Body": {
+    "code": 200,
+    "dataObject": null
+}
+
+"Request Body": {
+    "sessionId": 406,
+    "userId": "user007",
+    "latest_viewed": [
+        {"ID": 1, "Prod_ID": "A01"},
+        {"ID": 2, "Prod_ID": "A10"},
+        {"ID": 3, "Prod_ID": "A02"},
+        {"ID": 4, "Prod_ID": "D01"},
+        {"ID": 5, "Prod_ID": "NULL"},
+        {"ID": 6, "Prod_ID": "NULL"}
+     ],
+    "cart": [
+        {"Prod_ID": "A01", "quantity": 2},
+        {"Prod_ID": "B01", "quantity": 2}
+     ]
+}
+"Response Body" :
+{
+    "code": 200,
+    "dataObject": null
+}
+
+"Request Body" : {
+    "userId": "user123",
+    "productId": "prod456",
+    "clicks" : "1 (optional)"
+}
+
+"Response Body": {
+    "code": 200,
+    "dataObject": null
+}

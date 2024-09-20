@@ -1,0 +1,13 @@
+.base-header-root {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.base-header-root h4 {
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #013678;
+    margin: 0;
+}

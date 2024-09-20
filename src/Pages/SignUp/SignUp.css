@@ -1,0 +1,62 @@
+.signup-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-container {
+    width: 389px;
+    margin: auto;
+    text-align: left;
+}
+
+.signup-container h1 {
+    text-align: center;
+    color: #01367A;
+    margin-bottom: 40px;
+}
+
+
+.adjacent-field-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.adjacent-field-container input {
+    width: 159px !important;
+}
+
+.submit-btn {
+    margin: auto !important;
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.captcha > div {
+    display: flex !important;
+    align-items: center;
+}
+
+.captcha-input {
+    max-width: 182px;
+}
+
+.otp-form {
+    padding-bottom: 40px;
+}
+
+.otp-form > p {
+    margin-bottom: 15px;
+}
+
+.password-form > div {
+    margin-bottom: 20px;
+}

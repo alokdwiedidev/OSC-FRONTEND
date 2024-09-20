@@ -1,0 +1,205 @@
+.prod-root {
+    background-color: #F9F9F9;
+    /* height: 100vh; */
+    padding: 60px 100px 50px;
+}
+
+.prod-img {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #E3E3E3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.prod-img img {
+    object-fit: contain;
+    max-width: 415px;
+    max-height: 331px;
+}
+
+.prod-img-small {
+    border: 1px solid #E3E3E3;
+    width: 60px;
+    height: 60px;
+}
+
+.prod-img-small img {
+    width: 60px;
+    height: 60px;
+}
+
+.text-container {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.text-container h2 {
+    color: #0a3165;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.text-container p {
+    font-size: 18px;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.cart-btn {
+    background-color: #FAB30A !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #EB6E00 !important;
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    width: 100%;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rating-container p {
+    margin: 0;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.star-tag {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    gap: 6px;
+    border: 1px solid #013678;
+    border-radius: 5px;
+}
+
+.star-tag p {
+    margin: 0;
+    color: #013678;
+    font-weight: 600;
+}
+
+.price-info {
+    margin: 20px 0;
+}
+
+.price-info h4,
+h5,
+h5 {
+    margin: 0
+}
+
+.price-info h4 {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.price-info h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8F8F8F;
+    text-decoration: line-through;
+}
+
+.price-info h6 {
+    font-size: 14px;
+    color: #53A65E;
+}
+
+.pincode-input {
+    position: relative;
+    max-width: 220px;
+    margin-bottom: 20px;
+}
+
+.pincode-input input[type="number"] {
+    height: 36px;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EAEFF5;
+    border-radius: 3px;
+    padding-left: 49px;
+    padding-right: 12px;
+    width: 120px;
+}
+
+.pincode-input input[type="number"]::placeholder {
+    color: #B3B2B2;
+}
+
+.truck-icon {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.done-icon {
+    height: 25px !important ;
+    width: 25px !important;
+}
+
+.pincode-done-btn {
+    position: absolute;
+    right: 0;
+    height: 39px;
+    width: 40px;
+    border-radius: 0px 3px 3px 0px;
+    background: #597ba3 ;
+    border: none;
+    cursor: pointer;
+}
+
+.info-wrap-root {
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+}
+
+.info-wrap-root h4 {
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.info-wrap-root ul li {
+    font-size: 14px;
+}
+
+.info-wrap-root p {
+    font-size: 14px;
+}
+
+.similar-products {
+   padding-bottom: 50px;
+}

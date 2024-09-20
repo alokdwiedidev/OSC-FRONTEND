@@ -1,0 +1,73 @@
+.login-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;     
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+.forgot-pass-root {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-pass-btn {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    margin: auto !important;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.login-container h1 {
+    color: #01367A;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.text-input {
+    margin-bottom: 25px !important;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container h5 {
+    font-size: 13px;
+    color: #888888;
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 30px;
+    margin-top: -10px;
+}
+
+.forgot-password p {
+    margin: 0;
+    font-size: 13px;
+    color: #888888;
+    cursor: pointer;
+}
+
+.forgot-pass-text {
+    text-decoration: underline !important;
+}

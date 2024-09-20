@@ -1,0 +1,36 @@
+.modal-text {
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.modal-container{
+    position: relative;
+}
+
+.modal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B1C9E6;
+    height: 35px;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+}
+
+.modal-header p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 7px 15px;
+}
+
+.continue-btn {
+    margin: auto !important;
+}
+
+.modal-header {
+    width: 100%;
+}

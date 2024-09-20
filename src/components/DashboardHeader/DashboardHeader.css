@@ -1,0 +1,111 @@
+.dashboard-header-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(360deg, #cfe1f3, #3b2cd800 );
+    padding: 10px;
+    box-shadow: 0px 5px 3px #b3b1b140;
+    position: relative;
+}
+
+.search-input {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 800px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-input-container {
+    position: relative;
+}
+
+.search-input-container .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+
+.logo:hover {
+    background-color: transparent !important;
+}
+
+.logo h4 {
+    color: #013678;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+}
+
+.user-root {
+    display: flex;
+    align-items: center;
+}
+
+.user-root h4 {
+    color: #15529C;
+}
+
+.icon {
+    color: #15529C;
+}
+
+.drawer-content {
+    width: 400px;
+}
+
+.drawer-header {
+    background-color: #013678;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.drawer-header h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.close-icon {
+    position: absolute !important;
+    right: 20px !important;
+    top: 18px !important;
+    cursor: pointer;
+}
+
+.cart-items-container {
+    max-height: 350px;
+    overflow-y: auto !important;
+}
+
+.drawer-footer {
+    margin-top: auto;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.place-order-root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.place-order-root p {
+    color: #013678;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.status {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}

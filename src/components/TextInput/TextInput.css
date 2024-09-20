@@ -1,0 +1,33 @@
+.input-wrap {
+    padding-bottom: 16px;
+}
+
+.text-input {
+    width: 92%;
+    box-shadow: 0px 0px 6px #B2BCC659;
+    border: 1px solid #EAEFF5;
+    border-radius: 10px;
+    padding: 14px 15.5px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 !important;
+}
+
+.text-input:focus{
+    outline: unset;
+}
+
+.error-border-styles {
+    border: 1px solid red;
+}
+
+.error-root {
+    height: 16px;
+    text-align: left;
+}
+
+.error-root h4{
+    color: red;
+    font-size: 12px;
+     margin: 0
+}

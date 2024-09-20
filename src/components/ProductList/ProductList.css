@@ -1,0 +1,30 @@
+.product-list-root {
+    padding: 0 130px;
+}
+
+.product-list-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    border: 1px solid #E1E1E1;
+}
+
+.product-list-header > h4 {
+    text-transform: capitalize;
+    color: #013678;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product-list-item {
+    display: flex;
+    justify-content: center;
+}
